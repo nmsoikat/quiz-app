@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/quiz-app/static/css/main.b8b49d7e.chunk.css",
-    "main.js": "/quiz-app/static/js/main.8970e119.chunk.js",
-    "main.js.map": "/quiz-app/static/js/main.8970e119.chunk.js.map",
+    "main.js": "/quiz-app/static/js/main.db97e0d1.chunk.js",
+    "main.js.map": "/quiz-app/static/js/main.db97e0d1.chunk.js.map",
     "runtime-main.js": "/quiz-app/static/js/runtime-main.07a340af.js",
     "runtime-main.js.map": "/quiz-app/static/js/runtime-main.07a340af.js.map",
     "static/css/2.093fdc78.chunk.css": "/quiz-app/static/css/2.093fdc78.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.093fdc78.chunk.css",
     "static/js/2.9a950b8e.chunk.js",
     "static/css/main.b8b49d7e.chunk.css",
-    "static/js/main.8970e119.chunk.js"
+    "static/js/main.db97e0d1.chunk.js"
   ]
 }
