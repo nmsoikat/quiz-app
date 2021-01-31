@@ -9,7 +9,7 @@ function Header() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <Link className="logo-wrap" to="./">
+            <Link className="logo-wrap" to="/">
               <h2 className="logo">Quiz</h2>
             </Link>
           </div>

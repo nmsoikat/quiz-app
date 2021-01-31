@@ -5,17 +5,17 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <NavLink exact activeClassName="nav-link-active" to="./">
+          <NavLink exact activeClassName="nav-link-active" to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="nav-link-active" to="./create-quiz">
+          <NavLink activeClassName="nav-link-active" to="/create-quiz">
             Create Quiz
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="nav-link-active" to="./profile">
+          <NavLink activeClassName="nav-link-active" to="/profile">
             Profile
           </NavLink>
         </li>
