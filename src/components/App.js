@@ -32,7 +32,7 @@ class App extends react.Component {
           <Switch>
             <Route
               exact
-              path="/"
+              path="/quiz-app"
               component={() => (
                 <div className="quiz-area">
                   <div className="container">
@@ -57,7 +57,7 @@ class App extends react.Component {
             />
 
             <Route
-              path="/profile/:id"
+              path="/quiz-app/profile/:id"
               component={(props) => {
                 let singleAuthor = this.state.profile.filter((author) => {
                   if (author._id === props.match.params.id) return author;
@@ -75,7 +75,7 @@ class App extends react.Component {
             />
 
             <Route
-              path="/quiz/:id"
+              path="/quiz-app/quiz/:id"
               component={(props) => {
                 let singleQuiz = this.state.quiz.filter((qz) => {
                   if (qz._id === props.match.params.id) {
@@ -88,7 +88,7 @@ class App extends react.Component {
             />
 
             <Route
-              path="/create-quiz"
+              path="/quiz-app/create-quiz"
               component={() => {
                 return <CreateQuiz saveQuestion={this.saveQuestion} />;
               }}
